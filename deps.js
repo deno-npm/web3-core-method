@@ -3,4 +3,5 @@ export * as EthersTransactionUtils from "https://cdn.skypack.dev/-/@ethersprojec
 export * as helpers from "https://denopkg.com/deno-npm/deno_npm/web3-core-helpers/v1.2.11/mod.js";
 export * as promiEvent from "https://denopkg.com/deno-npm/deno_npm/web3-core-promievent/v1.2.11/mod.js";
 export * as Subscriptions from "https://denopkg.com/deno-npm/web3-core-subscriptions/mod.js";
+export * as testing from "https://deno.land/std@0.68.0/testing/asserts.ts";
 export * as utils from "https://denopkg.com/deno-npm/deno_npm/web3-utils/v1.2.11/mod.js";

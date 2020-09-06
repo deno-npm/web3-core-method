@@ -12,18 +12,18 @@
     along with web3.js.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import {JsonRpcPayload} from 'web3-core-helpers';
+import { JsonRpcPayload } from "web3-core-helpers";
 
 export interface Method {
-    name: string;
-    call: string;
-    params?: number;
-    inputFormatter?: Array<(() => void) | null>;
-    outputFormatter?: () => void;
-    transformPayload?: () => void;
-    extraFormatters?: any;
-    defaultBlock?: string;
-    defaultAccount?: string | null;
-    abiCoder?: any;
-    handleRevert?: boolean;
+  name: string;
+  call: string;
+  params?: number;
+  inputFormatter?: Array<(() => void) | null>;
+  outputFormatter?: () => void;
+  transformPayload?: () => void;
+  extraFormatters?: any;
+  defaultBlock?: string;
+  defaultAccount?: string | null;
+  abiCoder?: any;
+  handleRevert?: boolean;
 }

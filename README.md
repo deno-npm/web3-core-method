@@ -32,9 +32,9 @@ method.attachToObject(myCoolLib);
 myCoolLib.sendTransaction({...}, function(){ ... });
 ```
 
-## Types
+## TODO
 
-All the TypeScript typings are placed in the `types` folder.
+- [ ] Bring back buildCall test
 
 [docs]: http://web3js.readthedocs.io/en/1.0/
 [repo]: https://github.com/ethereum/web3.js
